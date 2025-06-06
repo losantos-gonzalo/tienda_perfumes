@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 .cart {
-  border: 2px solid #a36161;
-  width: 100%;
+  border: 2px solid #fd0000;
   text-align: center;
 
   .cartImg {
-    width: 200%;
     border: 2px solid black;
+    width: 100%;
   }
 }

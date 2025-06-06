@@ -9,7 +9,6 @@ const CartPerfumes = () => {
             {perfumes.map((perfumes) => (
                 <Box key={perfumes.id}>
                     <img src={perfumes.img} alt='' className='cartImg' />
-                    <Button>Ver mas!</Button>
                 </Box>
             ))}
         </Box>
