@@ -8,7 +8,7 @@ const CartPerfumes = () => {
         <Box className='cart'>
             {perfumes.map((perfumes) => (
                 <Box key={perfumes.id}>
-                    {/* <img src={perfumes.img} alt='' className='cartImg' /> */}
+                    <img src={perfumes.img} alt='' className='cartImg' />
                     {perfumes.nombre}
                 </Box>
             ))}
