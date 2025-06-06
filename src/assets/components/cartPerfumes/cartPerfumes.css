@@ -6,7 +6,6 @@
 .cart {
   border: 2px solid #a36161;
   width: 100%;
-  overflow: hidden;
   text-align: center;
 
   .cartImg {

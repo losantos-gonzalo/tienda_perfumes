@@ -7,10 +7,10 @@ const CartPerfumes = () => {
 
         <Box className='cart'>
             {perfumes.map((perfumes) => (
-                <div key={perfumes.id}>
+                <Box key={perfumes.id}>
                     <img src={perfumes.img} alt='' className='cartImg' />
                     <Button>Ver mas!</Button>
-                </div>
+                </Box>
             ))}
         </Box>
     )
